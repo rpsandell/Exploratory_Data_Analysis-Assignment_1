@@ -1,4 +1,4 @@
-setwd("/Users/rpsandell/Desktop/Programming and Statistics/EDA/Assignment1") # set working directory where the power usage data lives
+setwd("/Users/rpsandell/Desktop/Programming and Statistics/EDA") # set working directory where the power usage data lives
 
 library(sqldf) # load sqldf package to use sql queries in reading in data
 

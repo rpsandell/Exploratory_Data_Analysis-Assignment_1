@@ -1,4 +1,4 @@
-setwd("/Users/rpsandell/Desktop/Programming and Statistics/EDA/Assignment1") # set working directory where the power usage data lives
+setwd("/Users/rpsandell/Desktop/Programming and Statistics/EDA/") # set working directory where the power usage data lives
 
 library(sqldf) # load sqldf package to use sql queries in reading in data
 
@@ -7,5 +7,5 @@ power.data <- read.csv.sql("household_power_consumption.txt", header=T, sep=";",
 
 # Making Plot 1: a simple histogram
 png(filename = "plot1.png")
-hist(power.data$Global_active_power, col="red", xlab="Global Active Power (kilowatts)")
+hist(power.data$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
 dev.off()
